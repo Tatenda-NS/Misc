@@ -18,7 +18,7 @@ public class TwoSumHashMap {
                 map.put(nums[i], i);
             }
         }
-        return null;
+        return new int[]{0,0}; //nothing found
     }
 
     public static void main(String[] args) {
