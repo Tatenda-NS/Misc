@@ -7,7 +7,7 @@ public class ReverseWords {
         {
             solution.append(" ").append(sentenceArray[i]);
         }
-        return solution.toString();
+        return solution.toString().trim();
     }
 
     public static void main(String[] args) {
